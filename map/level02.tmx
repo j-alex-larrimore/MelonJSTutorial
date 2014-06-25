@@ -7,7 +7,7 @@
   <image source="../img/meta-tiles.png" width="350" height="70"/>
   <tile id="1">
    <properties>
-    <property name="type" value="solid"/>
+    <property name="type" value="lslope"/>
    </properties>
   </tile>
   <tile id="4">
