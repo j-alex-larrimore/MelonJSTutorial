@@ -13,6 +13,8 @@ game.PlayerEntity = me.ObjectEntity.extend({
        this.renderable.setCurrentAnimation("idle");
        
        this.setVelocity(5, 20);
+       
+       me.game.viewport.follow(this.pos, me.game.viewport.AXIS.BOTH);
    }, 
     
    update: function(){
@@ -38,8 +40,9 @@ game.LevelTrigger = me.ObjectEntity.extend({
    },
            
    onCollision: function(){
-       this.collidable=false;
+       this.collidable = false;
        me.levelDirector.loadLevel(this.level);
+       me.state.current().resetPlayer();
    }
    
    
