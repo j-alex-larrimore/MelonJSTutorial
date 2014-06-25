@@ -8,6 +8,7 @@ game.resources = [
     { name: "player1-spritesheet", type: "image", src: "img/player1-spritesheet.png"},
     { name: "meta-tiles", type: "image", src: "img/meta-tiles.png"},
     
-    { name: "level01", type: "tmx", src: "map/level01.tmx"}
+    { name: "level01", type: "tmx", src: "map/level01.tmx"},
+    { name: "level02", type: "tmx", src: "map/level02.tmx"}
     
 ];
