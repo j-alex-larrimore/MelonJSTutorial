@@ -8,5 +8,6 @@
         <?php
         // put your code here
         ?>
+        <script type="text/javascript" src="js/resources.js"></script>
     </body>
 </html>
